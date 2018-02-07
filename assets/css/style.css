@@ -22,6 +22,7 @@ header {
 .headercontent {
     background-color: #ffffff;
     height: 50px;
+    width: 960px;
 }
 
 #name {
@@ -52,7 +53,7 @@ a:link, a:visited {
     z-index: 1;
     position: relative;
     bottom: 35px;
-    right: 350px;
+    left: 280px;
 }
 
 .portlink {
@@ -92,6 +93,15 @@ form {
 .contactcontent {
     width: 960px;
     margin: auto;
+    margin-top: 20px;
+}
+
+.portcontent {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 20px;
+    padding: 10px;
 }
 
 .content {
@@ -100,6 +110,10 @@ form {
     margin-top: 20px;
     line-height: 20px;
     padding: 10px;
+}
+
+.content .connect {
+    margin: 0px;
 }
 
 .headers {
@@ -145,6 +159,8 @@ form {
     margin: auto;
     float: right;
     border: 1px solid #dddddd;
+    margin-top: 20px;
+    padding-bottom: 30px;
 
 }
 
@@ -165,13 +181,46 @@ form {
     text-align: center;
 }
 
+ul{
+    float: left;
+    width: 650px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+li img {
+    width: auto;
+}
+
+li {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul .text {
+    position:relative;
+    bottom:30px;
+    left:0px;
+    visibility:hidden;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: auto;
+    }
+
+ul:hover .text {
+    visibility: visible;
+}
+
 footer {
-    clear: both;
+    
     text-align: center;
     color: #ffffff;
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     height: 50px; 
     padding: 10px;
