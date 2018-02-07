@@ -71,11 +71,22 @@ form {
     margin-top: 20px;
     float: left;
     background-color: #ffffff;
+    border: 1px solid #dddddd;
+    line-height: 30px;
 }
 
 .form {
-    width: 85%;
+    width: 95%;
     padding: 5px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    padding: 5 20 5 20;
+    color: #ffffff;
 }
 
 .contactcontent {
@@ -91,18 +102,21 @@ form {
     padding: 10px;
 }
 
-.aboutheader {
+.headers {
     font-weight: bold;
     font-size: 25px;
     padding: 20px;
     border-bottom: 2px solid #dddddd;
-    width: 92%;
+    width: 85%;
     margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .image {
     float: left;
     margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .about {
@@ -115,10 +129,13 @@ form {
 
 .bio {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     margin: auto;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 20px;
+    width: auto;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
 }
 
 
