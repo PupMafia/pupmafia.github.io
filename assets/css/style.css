@@ -14,12 +14,12 @@ head {
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #ffffff;
-    width: 100%;
     z-index: 0;
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
 }
 
 .headercontent {
-    width: 100%;
     background-color: #ffffff;
     height: 50px;
 }
@@ -31,11 +31,19 @@ header {
     color: #ffffff;
     text-align: center;
     margin-left: 280px;
-    padding: 15px;
+    padding: 13px;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .links > a {
     margin: 5px;
+}
+
+a:link, a:visited {
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #777777;
 }
 
 .links {
@@ -43,8 +51,14 @@ header {
     text-align: center;
     z-index: 1;
     position: relative;
-    bottom: 20px;
+    bottom: 35px;
     right: 350px;
+}
+
+.portlink {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    padding: 10px;
 }
 
 body {
@@ -58,6 +72,17 @@ body {
     margin: auto;
     margin-top: 20px;
     min-height: 100%;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.aboutheader {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    border-bottom: 2px solid #dddddd;
+    width: 92%;
+    margin: auto;
 }
 
 .image {
@@ -68,21 +93,46 @@ body {
 .about {
     background-color: #ffffff;
     width: 650px;
-    overflow: auto;
     margin: auto;
     float: left;
+    border: 1px solid #dddddd;
 }
+
+.bio {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
 
 .connect {
     background-color: #ffffff;
     width: 270px;
     margin: auto;
     float: right;
+    border: 1px solid #dddddd;
+
 }
 
-.bio {
-    width: 100%;
+.connectheader {
+    width: 75%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
 }
+
+.connectlinks {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
 footer {
     clear: both;
     text-align: center;
