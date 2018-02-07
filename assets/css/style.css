@@ -62,16 +62,31 @@ a:link, a:visited {
 }
 
 body {
-    clear: both;
-    background-size: 100%;
     z-index: -1;
+}
+
+form {
+    width: 650px;
+    margin: auto;
+    margin-top: 20px;
+    float: left;
+    background-color: #ffffff;
+}
+
+.form {
+    width: 85%;
+    padding: 5px;
+}
+
+.contactcontent {
+    width: 960px;
+    margin: auto;
 }
 
 .content {
     width: 960px;
     margin: auto;
     margin-top: 20px;
-    min-height: 100%;
     line-height: 20px;
     padding: 10px;
 }
@@ -139,8 +154,9 @@ footer {
     color: #ffffff;
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
-    position: relative;
-    height: 75px;
-    margin-top: -100px;
+    position: fixed;
+    bottom: 0;
+    height: 50px; 
     padding: 10px;
+    width: 100%;
 }
