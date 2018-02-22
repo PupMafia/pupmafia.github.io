@@ -1,0 +1,29 @@
+h1 {
+    height: 200px;
+    color: grey;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Press Start 2P', cursive;
+}
+
+container {
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    background-image: url("../images/body.jpg");
+    background-size: cover;
+}
+
+#wordguess {    
+    background-size: cover;
+    color: white;    
+}
+
+#remainguess {
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: underline;
+    color: red;
+}
